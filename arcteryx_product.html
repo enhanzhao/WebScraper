@@ -1,0 +1,2088 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <!-- App meta -->
+                <meta name="apple-itunes-app" content="app-id=1183113553">
+            <title> Abbott Pant | Mens | Arc&#39;teryx </title>
+        <script type="text/javascript">var inHeadTS = (new Date()).getTime();</script>
+    <!-- Page Tagging Standard Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"c61f15ba44","applicationID":"225454658","transactionName":"ZgdTNREHWUEDW0YPC19NfDcgSWRaDUhxCQpFEF4NDwNFHTJKXQIRUhY=","queueTime":0,"applicationTime":147,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},distributed_tracing:{enabled:true}};(window.NREUM||(NREUM={})).loader_config={agentID:"225454775",accountID:"2478470",trustKey:"2478470",xpid:"VgIAWVJUCBACVlRWAgUBU1w=",licenseKey:"c61f15ba44",applicationID:"225454658"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(27),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{l?l-=1:o(c||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:s.now();i("err",[t,n])}var i=t("handle"),a=t(28),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",l=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(13),t(12),"addEventListener"in window&&t(6),s.xhrWrappable&&t(14),d=!0)}c.on("fn-start",function(t,e,n){d&&(l+=1)}),c.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),c.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){_++,T=g.hash,this[u]=y.now()}function o(){_--,g.hash!==T&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,l="cb"+s,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable){var x=t(10),b=t(11),E=t(8),R=t(6),O=t(13),N=t(7),M=t(14),P=t(9),S=t("ee"),C=S.get("tracer");t(16),y.features.spa=!0;var T,_=0;S.on(u,r),S.on(p,r),S.on(d,o),S.on(l,o),S.buffer([u,d,"xhr-done","xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+s,"clearTimeout"+c,u]),M.buffer([u,"new-xhr","send-xhr"+c]),N.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+c]),C.buffer([u,"no-"+u]),P.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(M,"send-xhr"+c),a(S,"xhr-resolved"),a(S,"xhr-done"),a(N,m+c),a(N,m+"-done"),a(P,"new-jsonp"),a(P,"jsonp-end"),a(P,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,_>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),c=t(12),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",l="-start",h="-end",m="fn"+l,v="fn"+h,w="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(8),"addEventListener"in window&&t(6);var x=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),o.on(v,function(t,e){var n=t[0];n instanceof x&&i("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,y.now(),this.bstType])}),c.on(m,function(){this.bstStart=y.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),o.on(g+l,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),o.on(g+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t("wrap-function")(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var c=r.apply(this,t);return o.emit(n+"start",[t,a],c),c.then(function(t){return o.emit(n+"end",[null,t],c),t},function(t){throw o.emit(n+"end",[t],c),t})})}var o=t("ee").get("fetch"),i=t(28),a=t(27);e.exports=o;var c=window,s="fetch-",f=s+"body-",u=["arrayBuffer","blob","json","text","formData"],d=c.Request,p=c.Response,l=c.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(c,"fetch",s),o.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(s+"done",[null,e],n)}else o.emit(s+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){s.emit("jsonp-error",[],p),s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=c(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),s.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function c(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var s=t("ee").get("jsonp"),f=t("wrap-function")(s);if(e.exports=s,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,l=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?f.inPlace(Node.prototype,l,"dom-"):(f.inPlace(HTMLElement.prototype,l,"dom-"),f.inPlace(HTMLHeadElement.prototype,l,"dom-"),f.inPlace(HTMLBodyElement.prototype,l,"dom-")),s.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t("wrap-function"),a=t("ee").get("promise"),c=i(a),s=t(27),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",c)}function i(t){y.push(t),h&&(b?b.then(a):v?v(a):(E=-E,R.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=NREUM.o,l=p.XHR,h=p.MO,m=p.PR,v=p.SI,w="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new l(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(l,x),x.prototype=l.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){if(!c(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=l.generateSpanId(),m=l.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||s(t)&&p())&&(w.traceContextParentHeader=o(h,m),w.traceContextStateHeader=i(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&s(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function o(t,e){return"00-"+e+"-"+t+"-01"}function i(t,e,n,r,o){var i=0,a="",c=1,s="",f="";return o+"@nr="+i+"-"+c+"-"+n+"-"+r+"-"+t+"-"+a+"-"+s+"-"+f+"-"+e}function a(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var c={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(c.d.tk=i),btoa(JSON.stringify(c))}function c(t){return f()&&s(t)}function s(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=h(n.allowed_origins[r]);if(t.hostname===o.hostname&&t.protocol===o.protocol&&t.port===o.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function p(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var l=t(24),h=t(17);e.exports={generateTracePayload:r,shouldGenerateTrace:c}},{}],16:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime]))}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=s(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(17),f=t(15).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(21),m=t(20),v=t(18),w=window.XMLHttpRequest;a.features.xhr=!0,t(14),t(7),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){i(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<p;c++)e.addEventListener(d[c],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url&&(n=t[0].url),n&&(this.parsedOrigin=s(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var o=f(this.parsedOrigin);if(o&&(o.newrelicHeader||o.traceContextParentHeader))if("string"==typeof t[0]){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),e(i.headers,o)&&(this.dt=o),t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&e(t[0].headers,o)&&(this.dt=o)})}},{}],17:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,c=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||c),"/"===o.pathname&&(r[t]=o),o}},{}],18:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(20);e.exports=r},{}],19:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(27),c=t(28),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,e])}},{}],20:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],21:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],22:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-a}function o(){return i}var i=(new Date).getTime(),a=i,c=t(29);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=o},{}],23:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function i(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!v){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),v=!0,d("timing",["fi",e,n])}}function c(t){d("pageHide",[p.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var s,f,u,d=t("handle"),p=t("loader"),l=t(26),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(o);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(i);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var v=!1,w=["click","keydown","mousedown","pointerdown","touchstart"];w.forEach(function(t){document.addEventListener(t,a,!1)})}l(c)}},{}],24:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<i.length;c++)o=i[c],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){return a(16)}function i(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,o=window.crypto||window.msCrypto;o&&o.getRandomValues&&Uint8Array&&(n=o.getRandomValues(new Uint8Array(31)));for(var i=[],a=0;a<t;a++)i.push(e().toString(16));return i.join("")}e.exports={generateUuid:r,generateSpanId:o,generateTraceId:i}},{}],25:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,s=c.match(a);s&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(o="Safari",i=s[1])}e.exports={agent:o,version:i,match:r}},{}],26:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[o]?"hidden":"visible")}"addEventListener"in document&&i&&document.addEventListener(i,e,!1)}e.exports=r;var o,i,a;"undefined"!=typeof document.hidden?(o="hidden",i="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",i="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",i="webkitvisibilitychange",a="webkitVisibilityState")},{}],27:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],28:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],29:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=m(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([x,n,r,a]),a}}function l(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var g={},y={},x={on:l,addEventListener:l,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(27),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(g,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+x.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+t.agent,e.parentNode.insertBefore(r,e)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}var a=t(22),c=t("handle"),s=t(27),f=t("ee"),u=t(25),d=window,p=d.document,l="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1184.min.js"},y=m&&v&&v[l]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:a.getLastTimestamp(),now:a,origin:w,features:{},xhrWrappable:y,userAgent:u};t(19),t(23),p[l]?(p[l]("DOMContentLoaded",i,!1),d[l]("load",r,!1)):(p[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var b=0},{}],"wrap-function":[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(28),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}]},{},["loader",2,16,5,3,4]);</script>
+        <meta name="robots" content="noydir">
+        <meta name="robots" content="noodp">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="language" content="ENGLISH" />
+    <meta http-equiv="content-language" content="ENGLISH" />
+    <meta name="PageName" id="PageName" content="Product">
+    <meta name="description" content="Fall-weight chino with a trim fit and comfortable cotton-blend fabric." />
+    <!-- MUST INCLUDE FOR IE11 AND OLDER FF -->
+    <script type="text/javascript">
+        if (!("customElements" in window) ) {
+            [ "https://cdn.polyfill.io/v2/polyfill.js?features=default,fetch", "https://cdnjs.cloudflare.com/ajax/libs/core-js/2.5.7/core.min.js", "https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.2.1/webcomponents-bundle.js" ].forEach( function ( script ) {
+                var s = document.createElement( "script" );
+                s.type = 'text/javascript';
+                s.src = script;
+                document.getElementsByTagName( "head" )[0].appendChild( s );
+            })                        
+        }
+    </script>    
+<!-- Google+ DirectConnect -->
+    <meta name="bitly-verification" content="db995a1e3b5e"/>
+    <meta name="msvalidate.01" content="0E1D85ADAB66C027E3286FF50C481809" />    <!-- App Icons -->
+    <link rel="icon" href="https:////scripts.arcteryx.com/graphics/app-icons/OUTDOOR/favicon.ico">
+    <link rel="shortcut-icon" href="//scripts.arcteryx.com/graphics/app-icons/bird-black/ios/Icon.png">
+    <link rel="apple-touch-icon" href="//scripts.arcteryx.com/graphics/app-icons/bird-black/ios7/Icon-60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="//scripts.arcteryx.com/graphics/app-icons/bird-black/ios7/Icon-76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="//scripts.arcteryx.com/graphics/app-icons/bird-black/ios7/Icon-60@2x.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="//scripts.arcteryx.com/graphics/app-icons/bird-black/ios7/Icon-76@2x.png">
+        <!-- openGraph tags -->
+        <title>Abbott Pant / Men's / Arc'teryx</title>
+        <meta property="og:title" content="Abbott Pant Men's" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://arcteryx.com/ca/en/shop/mens/Abbott-Pant" />
+        <meta property="og:locale" content="english_CA" />
+    <!-- image meta -->
+    <meta property="og:image" content="https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350" />
+    <meta property="og:image:secure_url" content="https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Carbon-Copy.png?auto=format" />
+    <meta property="og:image:type" content="image/jpg" />
+    <!-- facebook meta -->
+    <meta property="fb:admins" content="132700316"/>
+    <meta property="og:site_name" content="Arc'teryx Equipment"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="ARC'TERYX is a high performance outdoor equipment company known for leading innovations in climbing, skiing and alpine technologies"/>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@arcteryx">
+    <meta name="twitter:creator" content="@arcteryx">
+    <meta name="twitter:title" content="Abbott Pant Men's">
+    <meta name="twitter:description" content="Fall-weight chino with a trim fit and comfortable cotton-blend fabric.">
+    <meta name="twitter:image" content="https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Carbon-Copy.png?auto=format">
+
+    <script>
+        var digitalData = {
+            pageInstanceID: "Abbott Pant-Production",
+            page: {
+                pageInfo: {
+                    pageID: "Abbott Pant",
+                    pageName: "shop|mens|abbott-pant",
+                    destinationURL: "http://arcteryx.com/ca/en/shop/mens/abbott-pant"                },
+                category: {
+                    primaryCategory: "",
+                    pageType: "Product"
+                },
+                attributes: {
+                    country: "CA",
+                    language: "EN",
+                    SpreedlyEnvironmentKey: ""
+                }
+            },
+            user:  [],
+            product: [],
+            event: [],
+            cart: [],
+            websiteSettings: {
+            market: "OUTDOOR",
+                season: "F",
+                year: 2020,
+                language: "ENGLISH",
+                lang: "en",
+                server: "WEB1",
+                country: "CA",
+                defaultCulture: "en-CA",
+                warehouse: "VAN",
+                arcteryx_ecomm: 'ARCTERYXECOMM',
+                magento_ecomm: '',
+                show_on_web: 'SHOWONWEB',
+                isLoggedIn: "NOTLOGGEDIN",
+                state: "",
+                pageName: "Abbott Pant",
+                cdnDomain: "//scripts.arcteryx.com",
+                gaTrackingId: "UA-283808-20",
+                gtmContainer: "GTM-WX9RPZ",
+                adobeTrackingId: "arctprod",
+                adobeTrackingIdSysParm: "arctprod",
+                CUSTOMER_ID: "0",
+                CUSTOMER_EMAIL: "",
+                cartActive: true
+            }
+        };
+    </script>
+    <script>
+        var product = {};
+
+        product.productInfo = {
+            productID: "24424",
+            productName: "Abbott Pant",
+            skus: [],
+            description: "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+            productURL: "/ca/en/shop/mens/Abbott-Pant",
+            productImage: "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350",
+            productThumbnail: "https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Carbon-Copy.png?auto=format",
+            color: "Carbon Copy",
+            marketingName: "Abbott Pant",
+            marketingNameEn: "Abbott Pant",
+            subMarketingName: "Fall-weight chino for everyday wear.",
+            collection: "Everyday",
+            activity: ["Around Town"],
+            category: "Pants",
+            subCategory: "Inseam Length (Regular)",
+            colours: "Carbon Copy",
+            sizes: ['28', '30', '32', '34', '36', '38'],
+            season: "F",
+            year: 2020,
+            pricelistVersion: 1130,
+            lineListNumber: 1133,
+            price: "170.00",
+            decimalPrice: "170.00",
+            currency: "CAD",
+            currencySymbol: "$",
+            gender: "Mens",
+            pro: "N"
+        };
+
+        digitalData.product.push(product);
+    </script>
+<script>
+
+    var structuredData = [
+
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "394545",
+                "gtin12": "686487394810",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Carbon Copy",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "394550",
+                "gtin12": "686487394827",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Carbon Copy",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "394556",
+                "gtin12": "686487394834",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Carbon Copy",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "394562",
+                "gtin12": "686487394841",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Carbon Copy",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "394565",
+                "gtin12": "686487394858",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Carbon Copy",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "394568",
+                "gtin12": "686487394865",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Carbon Copy",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438144",
+                "gtin12": "686487508514",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Ultima",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438149",
+                "gtin12": "686487508521",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Ultima",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438155",
+                "gtin12": "686487508538",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Ultima",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438161",
+                "gtin12": "686487508545",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Ultima",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438164",
+                "gtin12": "686487508552",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Ultima",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438167",
+                "gtin12": "686487508569",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Ultima",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438170",
+                "gtin12": "686487508453",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Hieroglyph",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438175",
+                "gtin12": "686487508460",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Hieroglyph",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438181",
+                "gtin12": "686487508477",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Hieroglyph",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438187",
+                "gtin12": "686487508484",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Hieroglyph",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438190",
+                "gtin12": "686487508491",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Hieroglyph",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+                ,
+            {
+                "@context": "http://schema.org/",
+                "@type": "Product",
+                "name": "Abbott Pant Men's",
+                "image": [
+                    "https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                ],
+                "description": "Fall-weight chino with a trim fit and comfortable cotton-blend fabric.",
+                "mpn": "24424",
+                "sku": "438193",
+                "gtin12": "686487508507",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "",
+                    "reviewCount": ""
+                },
+                "color": "Hieroglyph",
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "170.00",
+                    "itemCondition": "http://schema.org/NewCondition",
+                    "availability": "",
+                    "url": "http://arcteryx.com/ca/en/shop/mens/abbott-pant"
+                }
+            }
+    ];
+
+</script>
+
+
+    <!--canonical-->
+    <link rel="canonical" href="https://arcteryx.com/ca/en/shop/mens/abbott-pant"/>
+
+    <!--hreflangs-->
+    <link rel="alternate" hreflang="es-at" href="https://arcteryx.com/at/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-at" href="https://arcteryx.com/at/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-at" href="https://arcteryx.com/at/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-at" href="https://arcteryx.com/at/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-at" href="https://arcteryx.com/at/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-at" href="https://arcteryx.com/at/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-at" href="https://arcteryx.com/at/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-be" href="https://arcteryx.com/be/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-be" href="https://arcteryx.com/be/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-be" href="https://arcteryx.com/be/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-be" href="https://arcteryx.com/be/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-be" href="https://arcteryx.com/be/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-be" href="https://arcteryx.com/be/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-be" href="https://arcteryx.com/be/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-ca" href="https://arcteryx.com/ca/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-ca" href="https://arcteryx.com/ca/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-ca" href="https://arcteryx.com/ca/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-ca" href="https://arcteryx.com/ca/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-ca" href="https://arcteryx.com/ca/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-ca" href="https://arcteryx.com/ca/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-ca" href="https://arcteryx.com/ca/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-ch" href="https://arcteryx.com/ch/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-ch" href="https://arcteryx.com/ch/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-ch" href="https://arcteryx.com/ch/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-ch" href="https://arcteryx.com/ch/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-ch" href="https://arcteryx.com/ch/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-ch" href="https://arcteryx.com/ch/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-ch" href="https://arcteryx.com/ch/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-cn" href="https://arcteryx.com/cn/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-cn" href="https://arcteryx.com/cn/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-cn" href="https://arcteryx.com/cn/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-cn" href="https://arcteryx.com/cn/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-cn" href="https://arcteryx.com/cn/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-cn" href="https://arcteryx.com/cn/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-cn" href="https://arcteryx.com/cn/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-cz" href="https://arcteryx.com/cz/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-cz" href="https://arcteryx.com/cz/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-cz" href="https://arcteryx.com/cz/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-cz" href="https://arcteryx.com/cz/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-cz" href="https://arcteryx.com/cz/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-cz" href="https://arcteryx.com/cz/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-cz" href="https://arcteryx.com/cz/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-de" href="https://arcteryx.com/de/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-de" href="https://arcteryx.com/de/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-de" href="https://arcteryx.com/de/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-de" href="https://arcteryx.com/de/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-de" href="https://arcteryx.com/de/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-de" href="https://arcteryx.com/de/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-de" href="https://arcteryx.com/de/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-dk" href="https://arcteryx.com/dk/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-dk" href="https://arcteryx.com/dk/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-dk" href="https://arcteryx.com/dk/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-dk" href="https://arcteryx.com/dk/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-dk" href="https://arcteryx.com/dk/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-dk" href="https://arcteryx.com/dk/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-dk" href="https://arcteryx.com/dk/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-es" href="https://arcteryx.com/es/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-es" href="https://arcteryx.com/es/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-es" href="https://arcteryx.com/es/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-es" href="https://arcteryx.com/es/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-es" href="https://arcteryx.com/es/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-es" href="https://arcteryx.com/es/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-es" href="https://arcteryx.com/es/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-fi" href="https://arcteryx.com/fi/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-fi" href="https://arcteryx.com/fi/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-fi" href="https://arcteryx.com/fi/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-fi" href="https://arcteryx.com/fi/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-fi" href="https://arcteryx.com/fi/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-fi" href="https://arcteryx.com/fi/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-fi" href="https://arcteryx.com/fi/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-fr" href="https://arcteryx.com/fr/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-fr" href="https://arcteryx.com/fr/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-fr" href="https://arcteryx.com/fr/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-fr" href="https://arcteryx.com/fr/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-fr" href="https://arcteryx.com/fr/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-fr" href="https://arcteryx.com/fr/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-fr" href="https://arcteryx.com/fr/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-gb" href="https://arcteryx.com/gb/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-gb" href="https://arcteryx.com/gb/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-gb" href="https://arcteryx.com/gb/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-gb" href="https://arcteryx.com/gb/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-gb" href="https://arcteryx.com/gb/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-gb" href="https://arcteryx.com/gb/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-gb" href="https://arcteryx.com/gb/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-ie" href="https://arcteryx.com/ie/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-ie" href="https://arcteryx.com/ie/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-ie" href="https://arcteryx.com/ie/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-ie" href="https://arcteryx.com/ie/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-ie" href="https://arcteryx.com/ie/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-ie" href="https://arcteryx.com/ie/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-ie" href="https://arcteryx.com/ie/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-it" href="https://arcteryx.com/it/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-it" href="https://arcteryx.com/it/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-it" href="https://arcteryx.com/it/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-it" href="https://arcteryx.com/it/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-it" href="https://arcteryx.com/it/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-it" href="https://arcteryx.com/it/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-it" href="https://arcteryx.com/it/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-jp" href="https://arcteryx.com/jp/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-jp" href="https://arcteryx.com/jp/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-jp" href="https://arcteryx.com/jp/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-jp" href="https://arcteryx.com/jp/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-jp" href="https://arcteryx.com/jp/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-jp" href="https://arcteryx.com/jp/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-jp" href="https://arcteryx.com/jp/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-nl" href="https://arcteryx.com/nl/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-nl" href="https://arcteryx.com/nl/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-nl" href="https://arcteryx.com/nl/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-nl" href="https://arcteryx.com/nl/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-nl" href="https://arcteryx.com/nl/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-nl" href="https://arcteryx.com/nl/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-nl" href="https://arcteryx.com/nl/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-no" href="https://arcteryx.com/no/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-no" href="https://arcteryx.com/no/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-no" href="https://arcteryx.com/no/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-no" href="https://arcteryx.com/no/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-no" href="https://arcteryx.com/no/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-no" href="https://arcteryx.com/no/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-no" href="https://arcteryx.com/no/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-pl" href="https://arcteryx.com/pl/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-pl" href="https://arcteryx.com/pl/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-pl" href="https://arcteryx.com/pl/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-pl" href="https://arcteryx.com/pl/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-pl" href="https://arcteryx.com/pl/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-pl" href="https://arcteryx.com/pl/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-pl" href="https://arcteryx.com/pl/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-se" href="https://arcteryx.com/se/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-se" href="https://arcteryx.com/se/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-se" href="https://arcteryx.com/se/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-se" href="https://arcteryx.com/se/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-se" href="https://arcteryx.com/se/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-se" href="https://arcteryx.com/se/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-se" href="https://arcteryx.com/se/en/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="es-us" href="https://arcteryx.com/us/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja-us" href="https://arcteryx.com/us/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh-us" href="https://arcteryx.com/us/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no-us" href="https://arcteryx.com/us/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de-us" href="https://arcteryx.com/us/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr-us" href="https://arcteryx.com/us/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en-us" href="https://arcteryx.com/us/en/shop/mens/abbott-pant" />
+    <!--general links-->
+    <link rel="alternate" hreflang="es" href="https://arcteryx.com/es/es/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="ja" href="https://arcteryx.com/jp/jp/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="zh" href="https://arcteryx.com/zh/zh/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="no" href="https://arcteryx.com/no/no/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="de" href="https://arcteryx.com/de/de/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="fr" href="https://arcteryx.com/fr/fr/shop/mens/abbott-pant" />
+    <link rel="alternate" hreflang="en" href="https://arcteryx.com/en/en/shop/mens/abbott-pant" />
+    <!--x-default-->
+    <link rel="alternate" hreflang="x-default" href="https://arcteryx.com/us/en/shop/mens/abbott-pant">
+<script type="text/javascript">
+        var ARCTERYX = {
+            WEBSITE_SETTINGS: {
+                MARKET: 'OUTDOOR',
+                SEASON: 'F',
+                YEAR: 2020,
+                LANGUAGE: 'ENGLISH',
+                LANG: 'EN',
+                SERVER: 'WEB1',
+                COUNTRY: 'CA',
+                IS_LOGGED_IN: 'NOTLOGGEDIN',
+                STATE: '',
+                PAGE_NAME: "Product",
+                CDN_DOMAIN: '//scripts.arcteryx.com',
+                GA_TRACKING_ID: 'UA-283808-20',
+                ADOBE_TRACKING_ID: 'arctprod',
+                ADOBE_TRACKING_ID_SYS_PARM: 'arctprod',
+                CUSTOMER_ID: '0',
+                CUSTOMER_EMAIL: '',
+                ARCTERYX_ECOMM: 'ARCTERYXECOMM',
+                MAGENTO_ECOMM: '',
+                ATTRACT_SITE_ID: "2cddd73a-34cf-4976-bb5c-fe99dc63747c",
+                SHOW_OLAPIC_IN_PDP_MAIN_IMAGES: true,
+                ENABLE_OUTLET_PROMO_UI_CHANGES: true
+            }
+        };
+</script>
+<link href="//scripts.arcteryx.com/fonts/avenir/fonts-async.css" rel="stylesheet" type="text/css">
+<script src="//scripts.arcteryx.com/fonts/avenir/fonts-tracking.js"></script>
+
+    <script type="text/javascript">
+        ARCTERYX.language = {
+            pleaseFinishEditingCart: '* Please finish editing your cart before proceeding, or <span id="discardEditingChanges">discard changes</span>.',
+            clickToLearnMore: "Click to Learn More",
+            viewProduct: "Shop Now",
+            checkoutProcessDoesntSupportChinese: "Sorry, our check-out process does not currently support Chinese characters.",
+            contactFormsDontSupportChinese: "Sorry, our contact forms do not currently support Chinese characters.",
+            accountPagesDontSupportChinese: "Sorry, our account pages do not currently support Chinese characters.",
+            weAreWorkingToAddThisFunctionality: "We are working to add this functionality.",
+            formsDontSupportChinese: "Sorry, our forms do not currently support Chinese characters",
+            formsDontSupportNonLatin: "Sorry, our forms do not currently support non-Latin characters",
+            pleaseWaitWhileYourRequestIsProcessed: "Please wait while your request is processed.",
+            youWillNowBeRedirectedTo: "You will now be redirected to",
+            changeFailed: "Change Failed",
+            startTypingToSearch: "Start Typing to Search for Products",
+            wordNew: "New",
+            revised: "Revised",
+            shopAllMensProducts: "Shop All Men's Products",
+            mens: "Men's",
+            shopAllWomensProducts: "Shop All Women's Products",
+            womens: "Women's",
+            findOutWhatMakesArcteryxDifferent: "Find Out What Makes Arc'teryx Different",
+            ourStoryTitle: "The Arc'teryx Story",
+            packs: "Packs",
+            noVatMessage: "Sorry for the inconvenience but we are temporarily unable to charge VAT at time of purchase. Please note that VAT will be due to UPS at time of delivery.",
+            noVatMessageBuyNow: "VAT not included",
+            noResultsFound: "No Results Found",
+            noMatchingProducts: "We couldn't find any products that match your search.",
+            alternateDestinations: "Here are a few alternate destinations that might help.",
+            specialCollections: "Special Collections",
+            newProductsAndBestSellers: "New Products & Best Sellers",
+            shopNowButton: "Shop Now",
+            shop: "SHOP",
+            mensProducts: "Men's Products",
+            womensProducts: "Women's Products",
+            findAStore: "Find A Store",
+            findInStore: "Find In Store",
+            findNow: "Find Now",
+            helpAndFaq: "Help & FAQ",
+            learnMore: "Learn More",
+            contactUs: "Contact Us",
+            sendEmail: "Send Email",
+            performanceTailoredToTheCity: "Performance Tailored To The City",
+            lawEnforcementAndArmedForces: "Law Enforcement & Armed Forces",
+            designedForOutdoorProfessionals: "Designed For Outdoor Professionals",
+            customizedProductsAndGroupDiscounts: "Customized Products & Group Discounts",
+            gender: "Gender",
+            categories: "Categories",
+            activities: "Activities",
+            size: "Size",
+            sizes: "Sizes:",
+            colours: "Colours",
+            reviewValue: "Review Value",
+            materials: "Materials",
+            signupLightboxTitle: "Subscribe to Arc’teryx",
+            chooseOne: "(choose one)",
+            selectCatFirst: "Select a Category First",
+            selectSubCatFirst: "Select a sub category first",
+            compareDropHeader: "Compare Products:",
+            compareDropInstruction0: "COMPARE PRODUCTS<br>Drag and drop up to three products into this box.",
+            compareDropInstruction1: "Drag and drop up to two more products into this box.",
+            compareDropInstruction2: "Drag and drop one more product or Compare Now.",
+            compareDropLink: "&rsaquo; $^compareNow^$",
+            compareRemoveTitle: "Remove this product",
+            compareProductTitle: "Compare Products",
+            compareAddText: "Add Product To Compare",
+            compareRemoveTitle: "Remove this product",
+            compareButton: "Compare",
+            compareClearAll: "Clear All",
+            ajaxCommErrorLong: "Sorry, there was an error while communicating with our servers.\nIf this problem persists please contact our support and mention a failed AJAX link to\n",
+            ajaxCommErrorShort: "There is a problem communicating with the server, please try again.",
+            addingToCart: "Adding...",
+            errorUpdatingCart: "There is a problem communicating with the server, please try again.",
+            cookiesRequiredToShop: "Your browser currently has cookies disabled. Cookies are required to shop.<br/><br/>Please re-enable cookies and try again.",
+            overMaxQty: function ( inStock ) { return 'You have exceeded the maximum quantity available, only NNN available.'.replace('NNN', inStock); },
+            inputOnlyNumbers: "Please enter only numbers in the quantity field",
+            addToCart: "Add To Cart",
+            addToWishlist: "Add To Wishlist",
+            subTotal: "SubTotal",
+            estShipping: "Est. Shipping",
+            shipping: "Shipping",
+            total: "Total",
+            delete: "Delete",
+            edit: "Edit",
+            moveToWishlist: "Move to Wishlist",
+            moveToCart: "Move to Cart",
+            undo: "Undo",
+            emailWhenInStock: "Email when in stock",
+            update: "Update",
+            inStock: "In Stock",
+            outOfStock: "Out of Stock",
+            soldOut: "Sold Out",
+            lessThan5Left: "Less Than 5 Left",
+            availableInTwoWeeks: "Available in 2 weeks",
+            availableInTwoMonths: "Available in 2 months",
+            currentlySoldOut: "This item is currently sold out.",
+            buyFromOnlineDealer: "Buy From Online Dealer",
+            chooseAnOnlineDealer: "Choose An Online Dealer",
+            addedToCart: "added to Your Cart",
+            itemSuccessfullyAddedToCart: "<item> has been successfully added to your cart",
+            emailSent: "Email Sent",
+            checkoutNow: "&rsaquo; Checkout Now",
+            viewYourCart: "View Your Cart",
+            pleaseSelect: "Please select a colour and size",
+            processing: "Processing. . .",
+            logInLink: 'signin.aspx?Simplify=N&AutoReturn=Y&ReturnURL=' + encodeURIComponent( window.location.href ),
+            logOutLink: 'window.location.href'  + '&Logout=True&ReturnURL=' + encodeURIComponent( window.location.href ),
+            signIn: "Sign-In",
+            signOut: "Sign-Out",
+            voltairAddSystem: "+ Register an Additional Voltair Airbag and Battery",
+            twoDayShipping: "Express Shipping",
+            free: "FREE",
+            itemTotal: "Item Total",
+            qty: "Qty",
+            discount: "Discount",
+            promoCode: "Promo code",
+            myCart: "My Cart",
+            refine: "Refine",
+            filters: "Filters",
+            compareProducts: "Compare Products",
+            clickOneOrTwoMoreToCompareProducts: "Click 1 Or 2 More To Compare",
+            clickOneMoreToCompareProducts: 'Click 1 More To <a href="Compare.aspx" class="compareNow">Compare Products</a>',
+            redeemed: "redeemed",
+            remaining: "remaining",
+            giftCard: "Gift Card",
+            invalidGiftCard: "Invalid Gift Card",
+            remove: "remove",
+            items: "Items",
+            item: "Item",
+            discountTotal: "Discount Total",
+            viewCart: "View Cart",
+            secureCheckout: "Secure Checkout",
+            noItemsInYourCart: "You currently have no items in your shopping cart.",
+            crossSellYouMightAlsoLike: "You Might Also Like",
+            crossSellFromTheOutfit: "From The Outfit",
+            shopMens: "Shop Men's",
+            shopWomens: "Shop Women's",
+            save: "Save",
+            photos: "Photos",
+            yourPhoto: "Your Photo",
+            detailPhotos: "Detail Photos",
+            selectASizePrompt: "Please Select A Size",
+            continueShopping: "Continue Shopping",
+            yesIAgree: "Yes, I agree",
+            diffShippingRegion: "Or select a different Shipping Region:",
+            language: "Language:",
+            prefferedLang: "Please select your preferred Language:",
+            prefShippingRegion: "Please select your preferred Shipping Region:",
+            settingsBasedOnLocation: "Based on your location we have changed your settings to:",
+            shippingRegion: "Shipping Region:",
+            welcome: "Welcome to Arcteryx.com",
+            languageAsLocalizedString: "English",
+            youSave: "You Save",
+            exclusiveToPro:  "This product is exclusive to members of our Professional program.",
+            proProduct:  "Pro Exclusive",
+            mySavings:  "My Savings",
+            invalidCode: "$^InvalidCode^$",
+            invalidReferralCode: "Invalid Referral Code",
+            chooseFile: "Choose File",
+            noFileChosen: "No File Chosen",
+            fileTooBig: "File is too large",
+            pleaseEnterEmailAddress: "Please enter your email address.",
+            invalidCreditCard: "Sorry, your credit card number doesn't seem to be valid. Please ensure that it is entered correctly or try an alternate card number.",
+            emptyCreditCard: "Please provide a Credit Card Number.",
+            invalidCVV: "Invalid CVV",
+            emptyCVV: "Please provide the CVV Number found on the back of your card.",
+            productNotifyThanksYoullRecieve: "Thanks! You’ll receive an email when this product is available",
+            productNotifySorryWeCant: "Sorry, we can't create notifications for this product at this time.",
+            bestSelling: "Best Selling Gear"            
+        };
+    </script>
+
+    <script>
+        // https://github.com/filamentgroup/loadCSS
+        !function(e){"use strict"
+            var n=function(n,t,o){function i(e){return f.body?e():void setTimeout(function(){i(e)})}var d,r,a,l,f=e.document,s=f.createElement("link"),u=o||"all"
+                return t?d=t:(r=(f.body||f.getElementsByTagName("head")[0]).childNodes,d=r[r.length-1]),a=f.styleSheets,s.rel="stylesheet",s.href=n,s.media="only x",i(function(){d.parentNode.insertBefore(s,t?d:d.nextSibling)}),l=function(e){for(var n=s.href,t=a.length;t--;)if(a[t].href===n)return e()
+                    setTimeout(function(){l(e)})},s.addEventListener&&s.addEventListener("load",function(){this.media=u}),s.onloadcssdefined=l,l(function(){s.media!==u&&(s.media=u)}),s}
+            "undefined"!=typeof exports?exports.loadCSS=n:e.loadCSS=n}("undefined"!=typeof global?global:this)
+    </script>
+
+    <script src="//scripts.arcteryx.com/js/vendors.v2.min.js" type="text/javascript"></script>
+    <script src="//scripts.arcteryx.com/js/analytics.min.js" type="text/javascript" async></script>
+            <script async type="text/javascript"
+                    src="//apps.bazaarvoice.com/deployments/arcteryx/main_site/production/en_CA/bv.js"></script>
+    <script src="//scripts.arcteryx.com/js/outdoor-product-f20.min.js" type="text/javascript"></script>
+
+</head>
+
+<body class="PRODUCT OUTDOOR NOTLOGGEDIN ENGLISH F20 CA BROCHURE ARCTERYXECOMM  SHOWONWEB">
+
+    <!-- Header -->
+    
+
+    <link rel="stylesheet" href="//scripts.arcteryx.com/css/outdoor-global.css" media="all">
+
+
+<script src="https://ui-components.arcteryx.com/ca/en/outdoorHeaderFooter.js"></script>
+<script src="https://ui-components.arcteryx.com/ca/en/localeSwitcherOutdoor.js"></script>
+<arcteryx-outdoor-header country="ca" language="en" market="outdoor" season="f" year="2020" environment="production"></arcteryx-outdoor-header>
+<link rel="stylesheet" href="//scripts.arcteryx.com/css/outdoor-f20.css" media="all">
+
+
+    <!-- Body Content -->
+    <style>
+        /* Above the fold inline-css */
+        .product, .product__above-the-fold {
+            display: block;
+            width: 88%;
+            position: relative;
+            padding: 20px 0;
+            max-width: 1430px;
+            margin: 0 auto;
+        }
+        /* Hide divs until css is fully loaded */
+        #product-size-thumbnails,
+        #size-thumbnails,
+        .product__social-share,
+        .product__social-share a span,
+        .product__social-share__button span,
+        .product__alternate-images-thumbnail,
+        .product__cta-bar {
+            display: none;
+        }
+
+        .product p, .product__above-the-fold p {
+            font-size: 15px;
+        }
+
+        .product__above-the-fold {
+            width: 100%;
+            margin: 0;
+        }
+
+        .product__below-the-fold {
+            display: block;
+            width: 98%;
+            float: none;
+            margin: 0 auto;
+            padding: 0 5px;
+        }
+
+        #need-to-know {
+            display: -webkit-flex;
+            -webkit-flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        #colour-thumbnails {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        #need-to-know div {
+            text-align: center;
+        }
+
+        #need-to-know .desktop-only {
+            display: none;
+        }
+
+        #need-to-know .product-name h1, #need-to-know .product-name span {
+            font-size: 29px;
+            margin: 0 0 .3em 0;
+        }
+
+        #need-to-know .product__short-description p,
+        .product__need-to-know__purchase-info .product-name {
+            margin: 0 auto;
+        }
+
+        #need-to-know p {
+            max-width: none;
+        }
+
+        #need-to-know .mobile-only {
+            width: 100%;
+        }
+
+        #need-to-know .desktop-only {
+            display: none;
+        }
+
+        .product__need-to-know__purchase-info {
+            width: 100%;
+        }
+
+        .product__need-to-know__hero-image {
+            position: relative;
+            width: 100%;
+            align-self: baseline;
+            justify-content: center;
+            margin: 20px auto;
+        }
+
+        .product-image {
+            display: inline;
+            float: none;
+            width: auto;
+        }
+
+        .product-name {
+            margin: 0 auto;
+        }
+
+        .product-image figure {
+            margin: 0;
+            display: inline-block;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .mobile-only .product-price {
+            margin-top: 15px;
+        }
+
+        @media screen and (min-width: 480px) {
+            .product-image img {
+                width: auto;
+                height: auto;
+                max-height: 72vh;
+            }
+
+            .URBAN .product-image img {
+                max-height: 68vh;
+            }
+        }
+
+        @media screen and (min-width: 930px) {
+            #content.product, .product__above-the-fold {
+                padding: 20px 5px 0 0;
+            }
+
+                #content.product p, .product__above-the-fold p {
+                    font-size: 15px;
+                    margin: 0;
+                }
+
+            .product__below-the-fold {
+                padding: 0 10px;
+                max-width: 1000px;
+            }
+
+            #need-to-know .mobile-only {
+                display: none;
+            }
+
+            #need-to-know .desktop-only {
+                display: block;
+            }
+
+            .product__need-to-know__hero-image {
+                flex: 1;
+                width: 65%;
+                display: flex;
+                align-items: baseline;
+                margin-bottom: 0;
+            }
+
+            .product__need-to-know__purchase-info {
+                display: inline-block;
+                margin-left: 0;
+                width: 35%;
+                height: 680px;
+                max-width: 470px;
+            }
+
+            .LEAF #need-to-know .product__need-to-know__purchase-info, .URBAN #need-to-know .product__need-to-know__purchase-info {
+                height: 650px;
+            }
+
+            .product-image {
+                width: 80%;
+            }
+
+            .URBAN .product-image {
+                width: 90%;
+            }
+
+            .product-image img {
+                height: auto;
+                width: auto;
+            }
+
+            .product-price {
+                display: none;
+            }
+
+            .desktop-only .product-price {
+                position: relative;
+                display: block;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .product__original-year {
+                margin: 20px 0;
+            }
+
+                .product__original-year span {
+                    text-transform: uppercase;
+                }
+        }
+
+        @media screen and (min-width: 1280px) {
+            .product-image {
+                width: auto;
+            }
+
+            .URBAN .product-image {
+                width: auto;
+            }
+        }
+    </style>
+
+        <script>
+            //load CSS asynchronously
+            loadCSS('//scripts.arcteryx.com/css/product-images.css');
+            loadCSS('//scripts.arcteryx.com/css/product-details-page.css');
+            loadCSS('//scripts.arcteryx.com/css/product-purchase-scenarios.css');
+        </script>
+        <!-- Shop Now Sticky Button -->
+        <div class="product__cta-bar button">
+                <div class="product-name">
+        <span data-marketing-name-en="Abbott Pant">
+Abbott Pant Men&#39;s
+        </span>
+    </div>
+
+            <button id="show-now-button" class="product__cta-bar__shop-now-button">
+                <span>Shop Now</span>
+                    <div class="product-price">
+            <p>
+                <span class="product-price__value" data-currency="CAD" data-language="EN" data-country="CA" content="170.00" data-price="170.00">170.00</span>
+            </p>
+            <div class="product-price__discount"></div>
+    </div>
+
+            </button>
+        </div>
+    <div class="product__social-share social">
+        <button class="product__social-share__button"><span>Social Share</span></button>
+
+        <ul class="product__social-share__links">
+            <li>
+                <a href="//facebook.com/sharer/sharer.php?u=https://arcteryx.com/ca/en/shop/mens/Abbott-Pant" target="_blank" class="facebook" title="Share on Facebook"><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="//plus.google.com/share?url=https://arcteryx.com/ca/en/shop/mens/Abbott-Pant" target="_blank" class="google" title="Share on Google+"><span>Google+</span></a>
+            </li>
+            <li>
+                <a href="//twitter.com/share?url=https://arcteryx.com/ca/en/shop/mens/Abbott-Pant&amp;text=Abbott Pant Men's" target="_blank" class="twitter" title="Share on Twitter"><span>Twitter</span></a>
+            </li>
+            <li>
+                <a href="//pinterest.com/pin/create/bookmarklet/?media=https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&w=1350&amp;url=https://arcteryx.com/ca/en/shop/mens/Abbott-Pant" target="_blank" class="pinterest" title="Share on Pinterest"><span>Pinterest</span></a>
+            </li>
+        </ul>
+
+    </div>
+        <div id="content" class="product" itemscope itemprop="mainEntity" itemtype="http://schema.org/Product">
+
+            <style type="text/css">
+    /* Inline styles for breadcrumb */
+    #breadcrumbLabel {
+        display: none;
+    }
+    .breadcrumb {
+        text-align: center;
+        clear: both;
+        text-transform: capitalize;
+    }
+    .breadcrumb__list {
+        list-style: none;
+    }
+    .breadcrumb__list-item {
+        display: inline;
+    }
+    .breadcrumb__list-item:nth-last-child(2) a:after {
+        content: none;
+    }
+    .breadcrumb__list-item:last-of-type {
+        display: none;
+    }
+    .breadcrumb__list-item:last-of-type a:after {
+        content: none;
+    }
+    .breadcrumb__list-item-link:hover {
+        text-decoration: underline;
+    }
+    .breadcrumb__list-item-link:after {
+        content: '\203A';
+        display: inline-block;
+    }
+    @media screen and (min-width: 930px) {
+        .breadcrumb {
+            text-align: left;
+        }
+        .breadcrumb__list-item:nth-last-child(2) a:after {
+            content: '\203A';
+            display: inline-block;
+        }
+        .breadcrumb__list-item:last-of-type {
+            display: inline-block;
+        }
+    }
+</style>
+
+<!-- Breadcrumb component -->
+<div id="breadcrumb" class="breadcrumb" itemscope itemtype="http://schema.org/WebPage">
+    <nav role="navigation" aria-label="breadcrumbs">
+        <p id="breadcrumbLabel">You are here:</p>
+        <ol aria-labelledby="breadcrumbLabel" class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
+
+                    <li class="breadcrumb__list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a class="breadcrumb__list-item-link" aria-hidden="true" itemprop="item" href="//arcteryx.com">
+                                <span itemprop="name">Arc&#39;teryx</span>
+                            </a>
+                        <meta itemprop="position" content="0"/>
+                    </li>
+                    <li class="breadcrumb__list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a class="breadcrumb__list-item-link" aria-hidden="true" itemprop="item" href="//arcteryx.com/ca/en/c/mens">
+                                <span itemprop="name">Mens</span>
+                            </a>
+                        <meta itemprop="position" content="1"/>
+                    </li>
+                    <li class="breadcrumb__list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <span itemprop="name">Abbott Pant</span>
+                        <meta itemprop="position" content="2"/>
+                    </li>
+        </ol>
+    </nav>
+</div>
+<!-- End breadcrumb -->
+
+            <div class="product__above-the-fold">
+
+                <div id="need-to-know">
+                    <!-- Only visible on mobile -->
+                    <div class="mobile-only">
+<div data-bv-show="rating_summary"
+        data-bv-product-id="Abbott-Pant">
+</div>
+                            <div class="product-name">
+        <span data-marketing-name-en="Abbott Pant">
+Abbott Pant Men&#39;s
+        </span>
+    </div>
+
+                            <div class="product__short-description" itemprop="description">
+        <p>Fall-weight chino with a trim fit and comfortable cotton-blend fabric.</p>
+    </div>
+
+                            <div class="product-price">
+            <p>
+                <span class="product-price__value" data-currency="CAD" data-language="EN" data-country="CA" content="170.00" data-price="170.00">170.00</span>
+            </p>
+            <div class="product-price__discount"></div>
+    </div>
+
+                    </div>
+                    <div class="product__need-to-know__hero-image">
+                            <div class="product-image">
+        <figure>
+                <img src=https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Carbon-Copy.png?auto=format itemtype="image" alt="Abbott Pant Men&#39;s Carbon Copy" data-colour-name=Carbon Copy data-large-image=https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&w=1350 data-small-image=https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Carbon-Copy.png?auto=format />
+                <figcaption>Abbott Pant</figcaption>
+        </figure>
+    </div>
+
+
+                            <div class="product__alternate-images-thumbnail">
+        <figure >
+            <figcaption class="product__alternate-images-thumbnail__count"></figcaption>
+            <figcaption class="product__alternate-images-thumbnail__caption"></figcaption>
+        </figure>
+    </div>
+
+                    </div>
+
+                    <div class="product__need-to-know__purchase-info no-p2p">
+                        <!-- Only visible on desktop -->
+                        <div class="desktop-only">
+<div data-bv-show="rating_summary"
+        data-bv-product-id="Abbott-Pant">
+</div>
+                                <div class="product-name">
+        <h1 data-marketing-name-en="Abbott Pant" itemprop="name">
+Abbott Pant Men&#39;s
+        </h1>
+    </div>
+
+                                <div class="product__short-description" itemprop="description">
+        <p>Fall-weight chino with a trim fit and comfortable cotton-blend fabric.</p>
+    </div>
+
+                                <div class="product-price">
+            <p>
+                <span class="product-price__value" data-currency="CAD" data-language="EN" data-country="CA" content="170.00" data-price="170.00">170.00</span>
+            </p>
+            <div class="product-price__discount"></div>
+    </div>
+
+                        </div>
+
+                            <div id="product-colour-thumbnails">
+        <div id="product-colour-select" class="product-colour-select">
+            <p>Select a colour: <span class="product-colour-select--selected"></span></p>
+        </div>
+        <div id="colour-thumbnails">
+                <div class="product-colour__thumbnail-container"
+                     data-colourcd="29126"
+                     data-name="Hieroglyph"
+                     data-colour-hexcode="8C6839"
+                     data-small-image="https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Hieroglyph.png?auto=format"
+                     data-large-image="https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Hieroglyph.jpg?auto=format&amp;w=1350"
+                     >
+                        <img src="https://images-dynamic-arcteryx.imgix.net/F20/55x70/Abbott-Pant-Hieroglyph.png?auto=format" alt="Abbott Pant Men&#39;s Hieroglyph">
+                    <div class="product-colour__thumbnail-container__name">
+                        <span style="color: 8C6839" >Hieroglyph</span>
+                    </div>
+                </div>
+                <div class="product-colour__thumbnail-container"
+                     data-colourcd="29123"
+                     data-name="Ultima"
+                     data-colour-hexcode="51292D"
+                     data-small-image="https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Ultima.png?auto=format"
+                     data-large-image="https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Ultima.jpg?auto=format&amp;w=1350"
+                     >
+                        <img src="https://images-dynamic-arcteryx.imgix.net/F20/55x70/Abbott-Pant-Ultima.png?auto=format" alt="Abbott Pant Men&#39;s Ultima">
+                    <div class="product-colour__thumbnail-container__name">
+                        <span style="color: 51292D" >Ultima</span>
+                    </div>
+                </div>
+                <div class="product-colour__thumbnail-container"
+                     data-colourcd="1716"
+                     data-name="Carbon Copy"
+                     data-colour-hexcode="423e3f"
+                     data-small-image="https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Carbon-Copy.png?auto=format"
+                     data-large-image="https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&amp;w=1350"
+                     >
+                        <img src="https://images-dynamic-arcteryx.imgix.net/F20/55x70/Abbott-Pant-Carbon-Copy.png?auto=format" alt="Abbott Pant Men&#39;s Carbon Copy">
+                    <div class="product-colour__thumbnail-container__name">
+                        <span style="color: 423e3f" >Carbon Copy</span>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+                        
+
+    <div id="product-size-thumbnails">
+        <div id="product-size-select" class="product-size-select">
+            <p>Select a size: <span class="product-size-select--selected"></span></p>
+        </div>
+        <div id="size-thumbnails">
+                        <div class="product-size__thumbnail-container Pants "
+                             data-primary-size="28"
+                             data-secondary-size=""
+                             data-units=""
+                             data-stock=""
+                             data-status=""
+                             data-qty=""
+                             data-sku=""
+                             data-model-no="24424">
+                            <span class="product-size__thumbnail-container__primary-size" title="In Stock">28</span>
+                            <span class="product-size__thumbnail-container__x-line-left"></span>
+                            <span class="product-size__thumbnail-container__x-line-right"></span>
+                            <span class="product-size__thumbnail-container__inseam-line"></span>
+                            <span class="product-size__thumbnail-container__secondary-size"></span>
+                        </div>
+                        <div class="product-size__thumbnail-container Pants "
+                             data-primary-size="30"
+                             data-secondary-size=""
+                             data-units=""
+                             data-stock=""
+                             data-status=""
+                             data-qty=""
+                             data-sku=""
+                             data-model-no="24424">
+                            <span class="product-size__thumbnail-container__primary-size" title="In Stock">30</span>
+                            <span class="product-size__thumbnail-container__x-line-left"></span>
+                            <span class="product-size__thumbnail-container__x-line-right"></span>
+                            <span class="product-size__thumbnail-container__inseam-line"></span>
+                            <span class="product-size__thumbnail-container__secondary-size"></span>
+                        </div>
+                        <div class="product-size__thumbnail-container Pants "
+                             data-primary-size="32"
+                             data-secondary-size=""
+                             data-units=""
+                             data-stock=""
+                             data-status=""
+                             data-qty=""
+                             data-sku=""
+                             data-model-no="24424">
+                            <span class="product-size__thumbnail-container__primary-size" title="In Stock">32</span>
+                            <span class="product-size__thumbnail-container__x-line-left"></span>
+                            <span class="product-size__thumbnail-container__x-line-right"></span>
+                            <span class="product-size__thumbnail-container__inseam-line"></span>
+                            <span class="product-size__thumbnail-container__secondary-size"></span>
+                        </div>
+                        <div class="product-size__thumbnail-container Pants "
+                             data-primary-size="34"
+                             data-secondary-size=""
+                             data-units=""
+                             data-stock=""
+                             data-status=""
+                             data-qty=""
+                             data-sku=""
+                             data-model-no="24424">
+                            <span class="product-size__thumbnail-container__primary-size" title="In Stock">34</span>
+                            <span class="product-size__thumbnail-container__x-line-left"></span>
+                            <span class="product-size__thumbnail-container__x-line-right"></span>
+                            <span class="product-size__thumbnail-container__inseam-line"></span>
+                            <span class="product-size__thumbnail-container__secondary-size"></span>
+                        </div>
+                        <div class="product-size__thumbnail-container Pants "
+                             data-primary-size="36"
+                             data-secondary-size=""
+                             data-units=""
+                             data-stock=""
+                             data-status=""
+                             data-qty=""
+                             data-sku=""
+                             data-model-no="24424">
+                            <span class="product-size__thumbnail-container__primary-size" title="In Stock">36</span>
+                            <span class="product-size__thumbnail-container__x-line-left"></span>
+                            <span class="product-size__thumbnail-container__x-line-right"></span>
+                            <span class="product-size__thumbnail-container__inseam-line"></span>
+                            <span class="product-size__thumbnail-container__secondary-size"></span>
+                        </div>
+                        <div class="product-size__thumbnail-container Pants "
+                             data-primary-size="38"
+                             data-secondary-size=""
+                             data-units=""
+                             data-stock=""
+                             data-status=""
+                             data-qty=""
+                             data-sku=""
+                             data-model-no="24424">
+                            <span class="product-size__thumbnail-container__primary-size" title="In Stock">38</span>
+                            <span class="product-size__thumbnail-container__x-line-left"></span>
+                            <span class="product-size__thumbnail-container__x-line-right"></span>
+                            <span class="product-size__thumbnail-container__inseam-line"></span>
+                            <span class="product-size__thumbnail-container__secondary-size"></span>
+                        </div>
+        </div>
+    </div>
+    <div id="product-fit" class="product-sizing-chart" Pants >
+        
+        <p><!--S18 OUTDOOR Sizing Chart MENS PANTS--><a href="http://arcteryx.com/ca/en/help/sizing/mens/bottoms" title="Men's Pants Sizing Chart" class="outdoor-sizing-chart-link">Men's Pants Sizing Chart</a></p>
+    </div>
+
+    <span id="product-virtual-advisor" href="https://arcteryx.com/help/va-modal/" lightbox="iframe" lightbox-max-height="500" lightbox-max-width="1200" lightbox-hidescroll="true">
+        Questions about fit? Consult a Virtual Advisor
+    </span>
+
+<div class="product-size-select-lower-bumper"></div>
+
+                        <div id="add-to-cart" class="button">
+                            <input type="button" id="add-to-cart-button" class="disabled" value="Add To Cart" />
+                        </div>
+
+                        <div class="product__free-shipping-message">
+                            <p>FREE SHIPPING / FREE RETURNS</p>
+                        </div>
+
+
+                            <div id="locally-widget-root"></div>
+                            <div id="locally-script-root"></div>
+
+                        <div id="p2p" class="button hidden">
+                            <input type="button" id="p2p-button" value="Check Online Dealer Inventory">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product__alternate-images hidden">
+                    <div class="product__alternate-images--tile">
+            <figure>
+                    <img src="https://images-dynamic-arcteryx.imgix.net/details/450x500/Abbott-Pant-Carbon-Copy-Front.jpg?fit=fill&amp;fill=solid&amp;w=255&amp;h=255" alt="Abbott Pant Carbon Copy Front" data-large-image="https://images-dynamic-arcteryx.imgix.net/details/1350x1710/Abbott-Pant-Carbon-Copy-Front.jpg?auto=format&amp;w=1350" data-small-image="https://images-dynamic-arcteryx.imgix.net/details/450x500/Abbott-Pant-Carbon-Copy-Front.jpg?fit=fill&amp;fill=solid&amp;w=255&amp;h=255"/>
+                    <figcaption>Abbott Pant Carbon Copy Front</figcaption>
+            </figure>
+        </div>
+        <div class="product__alternate-images--tile">
+            <figure>
+                    <img src="https://images-dynamic-arcteryx.imgix.net/details/450x500/Abbott-Pant-Carbon-Copy-Back.jpg?fit=fill&amp;fill=solid&amp;w=255&amp;h=255" alt="Abbott Pant Carbon Copy Back" data-large-image="https://images-dynamic-arcteryx.imgix.net/details/1350x1710/Abbott-Pant-Carbon-Copy-Back.jpg?auto=format&amp;w=1350" data-small-image="https://images-dynamic-arcteryx.imgix.net/details/450x500/Abbott-Pant-Carbon-Copy-Back.jpg?fit=fill&amp;fill=solid&amp;w=255&amp;h=255"/>
+                    <figcaption>Abbott Pant Carbon Copy Back</figcaption>
+            </figure>
+        </div>
+        <div class="product__alternate-images--tile">
+            <figure>
+                    <img src="https://images-dynamic-arcteryx.imgix.net/details/450x500/Abbott-Pant-Carbon-Copy-External-Pocket.jpg?fit=fill&amp;fill=solid&amp;w=255&amp;h=255" alt="Abbott Pant Carbon Copy External Pocket" data-large-image="https://images-dynamic-arcteryx.imgix.net/details/1350x1710/Abbott-Pant-Carbon-Copy-External-Pocket.jpg?auto=format&amp;w=1350" data-small-image="https://images-dynamic-arcteryx.imgix.net/details/450x500/Abbott-Pant-Carbon-Copy-External-Pocket.jpg?fit=fill&amp;fill=solid&amp;w=255&amp;h=255"/>
+                    <figcaption>Abbott Pant Carbon Copy External Pocket</figcaption>
+            </figure>
+        </div>
+        <div class="product__alternate-images--tile">
+            <figure>
+                    <img src="https://images-dynamic-arcteryx.imgix.net/details/450x500/Abbott-Pant-Carbon-Copy-Full-View.jpg?fit=fill&amp;fill=solid&amp;w=255&amp;h=255" alt="Abbott Pant Carbon Copy Full View" data-large-image="https://images-dynamic-arcteryx.imgix.net/details/1350x1710/Abbott-Pant-Carbon-Copy-Full-View.jpg?auto=format&amp;w=1350" data-small-image="https://images-dynamic-arcteryx.imgix.net/details/450x500/Abbott-Pant-Carbon-Copy-Full-View.jpg?fit=fill&amp;fill=solid&amp;w=255&amp;h=255"/>
+                    <figcaption>Abbott Pant Carbon Copy Full View</figcaption>
+            </figure>
+        </div>
+
+        <div class="product__alternate-images--tile video">
+            <div class="video-wrapper">
+                <figure>
+                    <video preload="metadata" muted>
+                        <source src="https://images.arcteryx.com/videos/product/Abbott-Pant-Carbon-Copy.mp4#t=5.5" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                        <figcaption>Abbott Pant Carbon Copy</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        </div>
+<div class="product__below-the-fold--wide">
+  <div class="product__emotional">
+    <div class="product__emotional-top">
+          <div id="product-mini-widgets">
+            <div>
+                <div>
+	<div class="icon" itemprop="image">
+		<img src="//images.arcteryx.com/widget-images/icon-24.jpg" alt="Everyday" />
+	</div>
+	<div class="description" itemprop="description">
+	  <h2>Everyday</h2>
+	  <p>Technical outdoor functionality, comfort and durability brought to everyday designs.</p>
+	</div>
+</div>
+            </div>
+            <div>
+                <div>
+	<div class="icon" itemprop="image">
+		<img src="//images.arcteryx.com/widget-images/icon-natural-fibre.jpg"alt="Natural Fibre" />
+	</div>
+	<div class="description" itemprop="description">
+	  <h2>Natural Fibre</h2>
+	  <p>Textiles made from natural fibres provide inherent benefits and next-to-skin comfort.</p>
+	</div>
+</div>
+            </div>
+    </div>
+
+
+      
+    </div>
+  </div>
+</div>
+        <div class="product__below-the-fold">
+            <div class="product__technical">
+                
+
+                    <div class="product__description">
+        <h2>
+Abbott Pant
+        </h2>
+        <p><p>Comfortable and versatile, the trim-fitting Abbott Pant moves easily from work to weekend. Durable, water and stain resistant, the cotton blend twill has stretch to add comfort and hold the fit. Hand pockets, two rear pockets and a subtle zippered thigh pocket provide storage.</p></p>
+    </div>
+
+
+
+                
+
+
+                    <div class="product__key-features">
+                        <div class="product__key-features__item">
+                            <h3>Sizes:</h3> 
+                            <span>28, 30, 32, 34, 36, 38</span>
+                        </div>
+                <div class="product__key-features__item">
+                    <h3>Weight:</h3>
+                    <span>300 g  / 10.6 oz</span>
+                </div>
+                <div class="product__key-features__item">
+                    <h3>Fit:</h3>
+                    <span>Trim fit</span>
+                </div>
+                <div class="product__key-features__item product__model-measurements">
+                    <h3>Model Measurements:</h3>
+                    <span><p>Model Measurements</p>
+
+<ul>
+<li>Height: 6ft 1"/185.4cms</li>
+<li>Waist: 29"/73.7cms</li>
+<li>Inseam: 33"/83.8cms</li>
+</ul></span>
+                    <span><ul>
+<li>Wearing Size: 32</li>
+</ul></span>
+                </div>
+                <div class="product__key-features__item product-sizing-chart">
+                    <h3>Sizing Chart:</h3>
+                    <span><!--S18 OUTDOOR Sizing Chart MENS PANTS--><a href="http://arcteryx.com/ca/en/help/sizing/mens/bottoms" title="Men's Pants Sizing Chart" class="outdoor-sizing-chart-link">Men's Pants Sizing Chart</a></span>
+                </div>
+                <div class="product__key-features__item">
+                    <h3>Activity:</h3>
+                    <span>
+Around Town
+                    </span>
+                </div>
+            <div class="product__key-features__item product-sizing-chart">
+                <h3>Model:</h3>
+                <span>24424</span>
+            </div>
+                    <div class="product__key-features__item">
+                        <h3>Manufacturing Facility: </h3>
+                        <span>
+                            <a href="/ca/en/explore/supply-chain-partners/youngone-cepz" target=&quot;_self&quot;>Youngone (CEPZ) Ltd., Bangladesh</a>
+                        </span>
+                    </div>
+
+    </div>
+
+            </div>
+        </div>
+        <div id="cross-sell" class="product__cross-sell product__cross-sell__side-by-side">
+            <div class="product__cross-sell__recommendations hidden">
+                <h2>You Might Also Like</h2>
+                <div class="product__cross-sell__product__tiles"></div>
+            </div>
+            <div class="product__cross-sell__related hidden">
+                    <h2>From The Outfit</h2>
+                <div class="product__cross-sell__product__tiles"></div>
+            </div>
+        </div>
+        <div class="product__olapic-widget">
+            <div id="olapic_specific_widget"></div>
+        </div>
+        <div class="product__below-the-fold product__below-the-fold--full">
+            <div class="product__technical">
+                    <div id="product-full-features" class="accordion accordion--close">
+        <div class="accordion__title">
+                <h2>Full Product Features</h2>
+            <button class="accordion__toggle" title="Collapse/Expand">
+                <span>+</span>
+            </button>
+        </div>
+        <div class="accordion__content">
+            <div class="accordion__content__grid--two-col">
+                    <div>
+                        <h3>Technical Features</h3>
+                        <ul>
+                                <li>Breathable</li>
+                                <li>Durable</li>
+                                <li>Water resistant</li>
+                                <li>Stain resistant</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Patterning</h3>
+                        <ul>
+                                <li>Articulated knees for unrestricted mobility</li>
+                                <li>Gusseted crotch for comfort and freedom of movement</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Zippers &amp; Fly Configuration</h3>
+                        <ul>
+                                <li>Front zipper closure</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Waist &amp; Belt Configuration</h3>
+                        <ul>
+                                <li>Fixed waistband with belt loops</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Pocket Configuration</h3>
+                        <ul>
+                                <li>Two hand pockets</li>
+                                <li>Two rear pockets</li>
+                                <li>One drop in thigh pocket</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <div class="accordion__bottom-line"></div>
+    </div>
+                
+
+                        <div class="product-big-widget accordion accordion--close">
+            <div class="accordion__title">
+                <h2>Arc&#39;teryx Layering System</h2>
+                <button class="accordion__toggle" title="Collapse/Expand">
+                    <span>+</span>
+                </button>
+            </div>
+            <div class="accordion__content">
+                <div class="widget layering-page-widget">		
+	<p>Layers are the instruments of keeping you dry, warm and using your energy efficiently. Put into the right systems, a good sequence of layers provides you with weather protection, moves moisture away from your skin, conserves or dissipates heat, and does this in the least amount of time.</p>
+	<p>The graph shows where this product sits within a layering system. Use the layering guide to select additional pieces for your system and understand how they fit together. Find out more about how to layer on our Layering Page.</p>
+	<p><a class="widget_cta btn" href="/ca/en/shop/mens-layering-guide">LEARN MORE</a></p>
+	<img src="//images-dynamic-arcteryx.imgix.net/layeringwidgets/layering-bottoms-1.jpg?auto=format" alt="Layering Chart Image" class="widget_image">
+
+<script>
+  if ( digitalData.product[0].productInfo.gender.toLowerCase() === "womens" ) {
+    var layeringLink = document.querySelector( ".layering-page-widget a" );
+    var womensUrl = layeringLink.getAttribute( "href" ).replace( "/mens-", "/womens-" );
+    layeringLink.setAttribute( "href", womensUrl );
+  }
+</script>
+
+
+<h3>Bottoms</h3>
+    <div class="layers__row">
+	<div class="layers__product">
+		<a href="/shop/mens/rho-ar-bottom" title="Rho AR Bottom"><img src="https://images-dynamic-arcteryx.imgix.net/sizingCharts/Layering/mens/Pants-Base-Layer-Mens-F19.jpg?auto=format&amp;h=275"></a>
+		<p>
+			<a href="/shop/mens/rho-ar-bottom" title="Rho AR Bottom">Rho AR Bottom</a>
+		</p>
+		<a href="/shop/mens/rho-ar-bottom" title="Rho AR Bottom"> </a>
+		<div class="layers__numbers">
+			<div style="background:#ddd;">1</div>
+			<div>2</div>
+			<div>3</div>
+		</div>
+	</div>
+	<div class="layers__product">
+		<a href="/shop/mens/alpha-ar-pant" title="Alpha AR Pant"><img src="https://images-dynamic-arcteryx.imgix.net/sizingCharts/Layering/mens/Pants-Mid-Layer-Mens-F19.jpg?auto=format&amp;h=275"></a>
+		<p>
+			<a href="/shop/mens/alpha-ar-pant" title="Alpha AR Pant">Alpha AR Pant</a>
+		</p>
+		<a href="/shop/mens/alpha-ar-pant" title="Alpha AR Pant"> </a>
+		<div class="layers__numbers">
+			<div>1</div>
+			<div style="background:#ddd;">2</div>
+			<div>3</div>
+		</div>
+	</div>
+	<div class="layers__product">
+		<a href="/shop/mens/macai-pant" title="Macai Pant"><img src="https://images-dynamic-arcteryx.imgix.net/sizingCharts/Layering/mens/Pants-Insulated-Shell-Mens-F19.jpg?auto=format&amp;h=275"></a>
+		<p>
+			<a href="/shop/mens/macai-pant" title="Macai Pant">Macai Pant</a>
+		</p>
+		<a href="/shop/mens/macai-pant" title="Macai Pant"> </a>
+		<div class="layers__numbers">
+			<div>1</div>
+			<div>2</div>
+			<div style="background:#ddd;">3</div>
+		</div>
+	</div>
+    </div>
+</div>
+            </div>
+            <div class="accordion__bottom-line"></div>
+        </div>
+
+                
+                    <div id="product-materials-care" class="accordion accordion--close">
+        <div class="accordion__title">
+                <h2>Materials &amp; Care</h2>
+            <button class="accordion__toggle" title="Collapse/Expand">
+                <span>+</span>
+            </button>
+        </div>
+
+        <div class="accordion__content">
+            <div class="accordion__content__grid--two-col">
+                    <div id="materials">
+                        <h3>Materials</h3>
+                        <ul>
+                                <li>5.3 oz/yd², 180 g/m² cotton/nylon stretch twill with DWR finish</li>
+                        </ul>
+                    </div>
+
+                    <div id="care" >
+                        <h3>Care</h3>
+                        <ul>
+                                <li>Machine wash in cold water. </li>
+                                <li>Tumble dry on low heat. </li>
+                                <li>Iron on low heat. </li>
+                                <li>Do not use fabric softener.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+        <div class="accordion__bottom-line"></div>
+    </div>
+
+
+
+
+<div id="product-questions-answers" class="accordion accordion--close">
+    <div class="accordion__title">
+        <h2>Questions &amp; Answers</h2>
+        <button class="accordion__toggle" title="Collapse/Expand">
+            <span>+</span>
+        </button>
+    </div>
+    <div class="accordion__content">
+        <div id="reviewsBetaWindowQuestions" class="reviewsBetaWindow">
+            <div id="BVQAContainer" data-bv-show="questions"
+                 data-bv-product-id="Abbott-Pant">
+            </div>
+        </div>
+    </div>
+    <div class="accordion__bottom-line"></div>
+</div>
+
+                
+<div id="product-reviews" class="accordion accordion--open">
+    <div class="accordion__title">
+        <h2>Product Reviews</h2>
+        <button class="accordion__toggle" title="Collapse/Expand">
+            <span>+</span>
+        </button>
+    </div>
+    <div class="accordion__content">
+        <div id="reviewsBetaWindows">
+            <div id="reviewsBetaWindowReviews" class="reviewsBetaWindow reviewsBetaWindowSelected">
+                <div data-bv-show="reviews"
+                        data-bv-product-id="Abbott-Pant">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion__bottom-line"></div>
+</div>
+            </div>
+        </div>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+    It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <div class="pswp__container">
+            <!-- don't modify these 3 pswp__item elements, data is added later on -->
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!-- Controls are self-explanatory. Order can be changed. -->
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <div class="pswp__counter">x</div>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Model Metrics Div -->
+        <div class="product__model-metrics">
+        <div class="product__model-metrics__list hidden">
+            <ul>
+                <p>Model Measurements</p>
+
+<ul>
+<li>Height: 6ft 1"/185.4cms</li>
+<li>Waist: 29"/73.7cms</li>
+<li>Inseam: 33"/83.8cms</li>
+</ul>
+<ul>
+<li>Wearing Size: 32</li>
+</ul>            </ul>
+        </div>
+        <div class="product__model-metrics__icon hidden"></div>
+    </div>
+
+</div>
+    <div id="p2p-modal">
+        <div id="p2p-content">
+            <span class="product-name">Available From Authorized Arc&#39;Teryx Dealers</span>
+            <div id="product">
+                <div class="p2p-modal__product-image">
+                    <figure>
+                        <img src="https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Carbon-Copy.png?auto=format" alt="Fall-weight chino with a trim fit and comfortable cotton-blend fabric." data-colour-name="Carbon Copy" data-large-image="https://images-dynamic-arcteryx.imgix.net/F20/1350x1710/Abbott-Pant-Carbon-Copy.jpg?auto=format&w=1350" data-small-image="https://images-dynamic-arcteryx.imgix.net/F20/450x625/Abbott-Pant-Carbon-Copy.png?auto=format"/>
+                            <figcaption>Abbott Pant</figcaption>
+                    </figure>
+                </div>
+                <div class="p2p-modal__product-details">
+                    <h2 data-marketing-name-en="Abbott Pant" data-model-no="24424">
+Abbott Pant Men&#39;s
+                    </h2>
+                        <div class="p2p-modal__product-description">
+                            <p>Fall-weight chino with a trim fit and comfortable cotton-blend fabric.</p>
+                        </div>
+                    <div id="p2p-modal__colour-select" class="product-colour-select">
+                        <p>Colour: <span class="product-colour-select--selected"></span></p>
+                    </div>
+
+                    <div id="p2p-modal__size-select" class="product-size-select">
+                        <p>Size: <span class="product-size-select--selected"></span></p>
+                    </div>
+
+                    <div class="p2p-modal__product-price">
+                            <p>
+                                <span class="product-price__value" data-currency="CAD" data-language="EN" data-country="CA" content="170.00" data-price="170.00">170.00</span>
+                            </p>
+                            <div class="p2p-modal__product-price__discount"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="p2p-modal__dealer-list"></div>
+        </div>
+    </div>    
+
+<script>
+            loadCSS('//scripts.arcteryx.com/css/outdoor-product-f20.css');
+        </script>
+
+    <!-- Footer -->
+    
+
+
+
+ <arcteryx-outdoor-footer country="ca" language="en"></arcteryx-outdoor-footer>
+ <arcteryx-locale-switcher country="ca" language="en"></arcteryx-locale-switcher>
+   
+
+
+    <!-- Bundled Callout -->
+        <script src="//scripts.arcteryx.com/web-bundles/main.js" type="module"></script>
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=17069188"></script>
+</body>
+</html>
